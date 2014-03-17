@@ -12,6 +12,6 @@ Grunt Tasks
 Samples of Grunt tasks (connect, copy, clean)
 
 Grunt command tasks :
-  grunt run -> launch a local http server
-  grunt prod -> clean 'vendors' folder, copy minified files from 'bower_components' to 'vendors'
-  grunt debug -> clean 'vendors' folder, copy files from 'bower_components' to 'vendors'
+* grunt run -> launch a local http server
+* grunt prod -> clean 'vendors' folder, copy minified files from 'bower_components' to 'vendors'
+* grunt debug -> clean 'vendors' folder, copy files from 'bower_components' to 'vendors'
