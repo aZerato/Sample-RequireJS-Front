@@ -1,8 +1,7 @@
 require.config({
 	paths: {
-		// faire tache grunt qui copiera dans un dossier lib ou vendor
-		'jquery': '../bower_components/jquery/dist/jquery',
-		'toastr': '../bower_components/toastr/toastr'
+		'jquery': './vendors/jquery',
+		'toastr': './vendors/toastr'
 	}
 });
 
