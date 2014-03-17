@@ -1,7 +1,7 @@
 require.config({
 	paths: {
-		'jquery': './vendors/jquery',
-		'toastr': './vendors/toastr'
+		'jquery': '../vendors/jquery',
+		'toastr': '../vendors/toastr'
 	}
 });
 
