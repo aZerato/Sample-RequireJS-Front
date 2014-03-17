@@ -1,6 +1,16 @@
 Sample-RequireJS-Front
 ======================
 
+How To
+--
+
+Launch your favourite shell, go to project folder :
+
+```
+> npm install
+> bower install
+```
+
 Require
 -------
 
