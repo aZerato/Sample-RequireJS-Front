@@ -1,0 +1,21 @@
+{
+  "name": "Sample-RequireJS-Front",
+  "version": "0.0.0",
+  "description": "how use requirejs for frontend dev",
+  "main": "index.html",
+  "authors": [
+    "aZerato"
+  ],
+  "license": "MIT",
+  "homepage": "github.com/aZerato",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "toastr": "~2.0.1"
+  }
+}
