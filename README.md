@@ -9,12 +9,14 @@ Launch your favourite shell, go to project folder :
 ```
 > npm install
 > bower install
+> grunt debug
+> grunt run
 ```
 
 Require
 -------
 
-This basic sample show how use requirejs, go 'web' folder 
+This basic sample show how use requirejs, go 'src/scripts' folder 
 
 Grunt Tasks
 -----------

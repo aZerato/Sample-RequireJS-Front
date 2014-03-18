@@ -15,6 +15,12 @@ module.exports = {
             // bower assets
             {src: '<%= configs.bower %>/toastr/toastr.min.css', dest: '<%= configs.styles %>/toastr.min.css'},
             {src: '<%= configs.bower %>/bootstrap/dist/css/bootstrap.min.css', dest: '<%= configs.styles %>/bootstrap.css'},
+        
+            // application
+            {src: '<%= configs.src %>/scripts/index.html', dest: '<%= configs.web %>/index.html'},
+            {src: '<%= configs.src %>/scripts/require-config.js', dest: '<%= configs.scripts %>/require-config.js'},
+            {src: '<%= configs.src %>/scripts/application.js', dest: '<%= configs.scripts %>/application.js'},
+            {src: '<%= configs.src %>/scripts/models/Todo.js', dest: '<%= configs.scripts %>/models/Todo.js'}
         ]
     },
     debug: {
@@ -33,6 +39,12 @@ module.exports = {
             // bower assets
             {src: '<%= configs.bower %>/toastr/toastr.css', dest: '<%= configs.styles %>/toastr.css'},
             {src: '<%= configs.bower %>/bootstrap/dist/css/bootstrap.css', dest: '<%= configs.styles %>/bootstrap.css'},
+
+            // application
+            {src: '<%= configs.src %>/scripts/index.html', dest: '<%= configs.web %>/index.html'},
+            {src: '<%= configs.src %>/scripts/require-config.js', dest: '<%= configs.scripts %>/require-config.js'},
+            {src: '<%= configs.src %>/scripts/application.js', dest: '<%= configs.scripts %>/application.js'},
+            {src: '<%= configs.src %>/scripts/models/Todo.js', dest: '<%= configs.scripts %>/models/Todo.js'}
         ]
     }
 };
