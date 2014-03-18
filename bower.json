@@ -16,6 +16,11 @@
     "tests"
   ],
   "dependencies": {
-    "toastr": "~2.0.1"
+    "toastr": "~2.0.1",
+    "backbone": "~1.1.2",
+    "backbone.marionette": "~1.6.4",
+    "jquery": "~2.1.0",
+    "bootstrap": "~3.1.1",
+    "requirejs": "~2.1.11"
   }
 }

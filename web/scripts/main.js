@@ -1,12 +1,30 @@
 require.config({
+	baseUrl: './vendors/',
 	paths: {
-		'jquery': '../vendors/jquery',
-		'toastr': '../vendors/toastr'
+		'jquery': 'jquery',
+		'toastr': 'toastr',
+		'bootstrap' : 'bootstrap',
+		'underscore': 'underscore',
+		'backbone': 'backbone',
+		'marionette': 'marionette'
 	},
 	shim: {
 		'toastr': {
 			deps: ['jquery'],
 			exports: '$'
+		},
+		'bootstrap': {
+			deps: ['jquery']
+		},
+		'underscore': {
+			exports: '_'
+		},
+		'backbone': {
+			deps: ['jquery', 'underscore']
+		},
+		'marionette': {
+			deps: ['jquery', 'underscore', 'backbone'],
+			exports: 'Marionette'
 		}
 	}
 });

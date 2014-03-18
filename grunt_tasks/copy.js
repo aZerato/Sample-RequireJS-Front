@@ -6,8 +6,15 @@ module.exports = {
             {src: '<%= configs.bower %>/jquery/dist/jquery.min.js', dest: '<%= configs.vendors %>/jquery.js'},
             {src: '<%= configs.bower %>/toastr/toastr.min.js', dest: '<%= configs.vendors %>/toastr.js'},
 
+            {src: '<%= configs.bower %>/underscore/underscore.js', dest: '<%= configs.vendors %>/underscore.js'},
+            {src: '<%= configs.bower %>/backbone/backbone.js', dest: '<%= configs.vendors %>/backbone.js'},
+            {src: '<%= configs.bower %>/backbone.marionette/lib/backbone.marionette.min.js', dest: '<%= configs.vendors %>/backbone.marionette.js'},
+
+            {src: '<%= configs.bower %>/bootstrap/dist/js/bootstrap.min.js', dest: '<%= configs.vendors %>/bootstrap.js'},
+
             // bower assets
             {src: '<%= configs.bower %>/toastr/toastr.min.css', dest: '<%= configs.styles %>/toastr.min.css'},
+            {src: '<%= configs.bower %>/bootstrap/dist/css/bootstrap.min.css', dest: '<%= configs.styles %>/bootstrap.css'},
         ]
     },
     debug: {
@@ -17,8 +24,15 @@ module.exports = {
             {src: '<%= configs.bower %>/jquery/dist/jquery.js', dest: '<%= configs.vendors %>/jquery.js'},
             {src: '<%= configs.bower %>/toastr/toastr.js', dest: '<%= configs.vendors %>/toastr.js'},
 
+            {src: '<%= configs.bower %>/underscore/underscore.js', dest: '<%= configs.vendors %>/underscore.js'},
+            {src: '<%= configs.bower %>/backbone/backbone.js', dest: '<%= configs.vendors %>/backbone.js'},
+            {src: '<%= configs.bower %>/backbone.marionette/lib/backbone.marionette.js', dest: '<%= configs.vendors %>/backbone.marionette.js'},
+
+            {src: '<%= configs.bower %>/bootstrap/dist/js/bootstrap.js', dest: '<%= configs.vendors %>/bootstrap.js'},
+
             // bower assets
             {src: '<%= configs.bower %>/toastr/toastr.css', dest: '<%= configs.styles %>/toastr.css'},
+            {src: '<%= configs.bower %>/bootstrap/dist/css/bootstrap.css', dest: '<%= configs.styles %>/bootstrap.css'},
         ]
     }
 };
